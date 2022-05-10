@@ -43,5 +43,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CBIORenderMethod</key>
+	<integer>2</integer>
 </dict>
 </plist>

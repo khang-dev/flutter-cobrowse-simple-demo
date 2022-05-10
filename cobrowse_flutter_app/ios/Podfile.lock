@@ -1,0 +1,42 @@
+PODS:
+  - CobrowseIO (2.18.0):
+    - CobrowseIO/XCFramework (= 2.18.0)
+    - Starscream (~> 3.1.1)
+    - SwiftCBOR (~> 0.4.3)
+  - CobrowseIO/XCFramework (2.18.0):
+    - Starscream (~> 3.1.1)
+    - SwiftCBOR (~> 0.4.3)
+  - cobrowseio_flutter (0.0.1):
+    - CobrowseIO
+    - Flutter
+  - Flutter (1.0.0)
+  - Starscream (3.1.1)
+  - SwiftCBOR (0.4.4)
+
+DEPENDENCIES:
+  - CobrowseIO (~> 2)
+  - cobrowseio_flutter (from `.symlinks/plugins/cobrowseio_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - CobrowseIO
+    - Starscream
+    - SwiftCBOR
+
+EXTERNAL SOURCES:
+  cobrowseio_flutter:
+    :path: ".symlinks/plugins/cobrowseio_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  CobrowseIO: 7e4a7198eca631dfa0957e49c592b368276dad51
+  cobrowseio_flutter: ed5a4a8144c65a0373fc5c7e81dfce15c8342397
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftCBOR: ce5354ec8b660da2d6fc754462881119dbe1f963
+
+PODFILE CHECKSUM: 9367fc84b4d198bbcd4db3a1f0c32c7112acd345
+
+COCOAPODS: 1.11.2
